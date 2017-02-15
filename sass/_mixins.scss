@@ -1,0 +1,11 @@
+// Mixins
+
+// Inherit font color and show underline only on hover/focus
+@mixin link-muted() {
+  color: inherit;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
