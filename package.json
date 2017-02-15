@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass sass/style.scss ./style.css"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  }
+}
